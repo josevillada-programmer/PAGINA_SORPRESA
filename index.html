@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Un Regalo para Ti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="info-form" class="card">
+        <h1>Algo especial te espera...</h1>
+        <p>Tu sorpresa está a solo un clic de distancia.</p>
+        <label for="name">Tu nombre:</label>
+        <input type="text" id="name" placeholder="Escribe tu nombre aquí" required>
+        <label for="birthday">Tu fecha de cumpleaños:</label>
+        <input type="date" id="birthday" required>
+        <button id="submit-btn">Descubrir mi sorpresa</button>
+    </div>
+
+    <div id="flower-container" class="hidden">
+
+        <div class="particle-container">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+
+        <div class="butterfly">
+            <div class="body"></div>
+            <div class="wing wing-left"></div>
+            <div class="wing wing-right"></div>
+        </div>
+
+        <div class="scene-content">
+            <h2 id="greeting"></h2>
+            <div class="flowers">
+                <div class="flower">
+                    <div class="flower-head">
+                        <div class="petal"></div>
+                        <div class="petal"></div>
+                        <div class="petal"></div>
+                        <div class="petal"></div>
+                        <div class="center"></div>
+                    </div>
+                    <div class="stem"></div>
+                </div>
+                <div class="flower">
+                    <div class="flower-head">
+                        <div class="petal"></div>
+                        <div class="petal"></div>
+                        <div class="petal"></div>
+                        <div class="petal"></div>
+                        <div class="center"></div>
+                    </div>
+                    <div class="stem"></div>
+                </div>
+                <div class="flower">
+                    <div class="flower-head">
+                        <div class="petal"></div>
+                        <div class="petal"></div>
+                        <div class="petal"></div>
+                        <div class="petal"></div>
+                        <div class="center"></div>
+                    </div>
+                    <div class="stem"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grass"></div>
+    </div>
+
+    <audio id="background-music" loop>
+        <source src="Flores Amarillas.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
