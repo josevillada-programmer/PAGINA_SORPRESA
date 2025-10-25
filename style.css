@@ -1,8 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    /* --- CAMBIO AQUÍ: Nuevo fondo degradado --- */
     background: linear-gradient(-45deg, #FFFFFF, #8A2BE2, #000000);
-    /* Blanco, Morado, Negro */
     background-size: 400% 400%;
     animation: gradientAnimation 15s ease infinite;
     display: flex;
